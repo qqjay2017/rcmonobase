@@ -65,6 +65,10 @@ importers:
         version: registry.npmmirror.com/rimraf@5.0.1
 
   packages/rc-base:
+    dependencies:
+      '@ljfe/shared':
+        specifier: workspace:*
+        version: link:../shared
     devDependencies:
       clean-package:
         specifier: 2.2.0
@@ -83,6 +87,15 @@ importers:
         version: registry.npmmirror.com/react-spinners@0.13.8(react-dom@18.2.0)(react@18.2.0)
 
   packages/shared: {}
+
+  packages/usehooks:
+    devDependencies:
+      clean-package:
+        specifier: 2.2.0
+        version: registry.npmmirror.com/clean-package@2.2.0
+      react:
+        specifier: ^18.2.0
+        version: registry.npmmirror.com/react@18.2.0
 
   playground:
     dependencies:

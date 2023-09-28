@@ -5,6 +5,7 @@
   "description": "The repository of lj fe",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "playground": "pnpm --filter=./playground",
     "build:playground": "pnpm --filter {./playground}... build",
     "build:shared": "pnpm --filter {./packages/shared}... build-fast",
@@ -12,7 +13,7 @@
     "build-fast": "pnpm -r --parallel --filter=./packages/** build-fast",
     "dev": "pnpm build:shared && pnpm -r --parallel --filter=./packages/** --filter=./extension/** dev",
     "release-dev": "changeset version --snapshot dev && changeset publish --tag dev",
-    "release": "changeset publish",
+    "release": "changeset version && changeset publish",
     "build": "pnpm -r --filter=./packages/**  build"
   },
   "keywords": [],

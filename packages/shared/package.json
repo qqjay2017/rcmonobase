@@ -1,14 +1,17 @@
 {
   "name": "@ljfe/shared",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Shared utilities for lj fe",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
   "author": "huang",
   "sideEffects": false,
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "http://svn.xjjchain.com:8081/repository/npm-l/",
+    "types": "dist/index.d.ts",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs"
   },
   "scripts": {
     "build": "tsup --dts",
