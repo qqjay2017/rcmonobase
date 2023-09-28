@@ -8,12 +8,12 @@
     "playground": "pnpm --filter=./playground",
     "build:playground": "pnpm --filter {./playground}... build",
     "build:shared": "pnpm --filter {./packages/shared}... build-fast",
-    "prepare": "husky install && pnpm build-fast",
+    "prepare": "husky install",
     "build-fast": "pnpm -r --parallel --filter=./packages/** build-fast",
     "dev": "pnpm build:shared && pnpm -r --parallel --filter=./packages/** --filter=./extension/** dev",
     "release-dev": "changeset version --snapshot dev && changeset publish --tag dev",
     "release": "changeset publish",
-    "build": "pnpm -r --filter=./packages/** --filter=./extension/** build"
+    "build": "pnpm -r --filter=./packages/**  build"
   },
   "keywords": [],
   "author": "huang",
