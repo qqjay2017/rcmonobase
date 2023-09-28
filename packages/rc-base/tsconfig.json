@@ -1,0 +1,4 @@
+{
+  "extends": "../../tsconfig.rc.json",
+  "include": ["src", "stories", "index.ts"]
+}
