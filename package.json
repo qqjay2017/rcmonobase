@@ -7,7 +7,7 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "www:dev": "turbo run dev --filter=www",
-    "build:www": "pnpm --filter {./www}... build",
+    "www:build": "turbo run build --filter=www",
     "build:shared": "pnpm --filter {./packages/shared}... build-fast",
     "prepare": "husky install",
     "build-fast": "pnpm -r --parallel --filter=./packages/** build-fast",
