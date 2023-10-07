@@ -13,7 +13,7 @@ out
 build
 **/buil
 tsconfig.tsbuildinfo
-.DS_Store
+
 __generated__
 *.env
 .idea
@@ -27,3 +27,15 @@ panda-static
 
 !packages/studio/styled-system
 packages/studio/src/lib/analysis.json
+
+# Cache
+.npm
+.cache
+.eslintcache
+.turbo
+
+# Mac files
+.DS_Store
+
+# Local Netlify folder
+.netlify

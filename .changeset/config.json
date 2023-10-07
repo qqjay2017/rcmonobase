@@ -7,7 +7,7 @@
   "access": "restricted",
   "baseBranch": "master",
   "updateInternalDependencies": "patch",
-  "ignore": ["playground"],
+  "ignore": ["www"],
 
   "___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
     "说明": "在每次 version 变动时一定无理由 patch 抬升依赖他的那些包的版本，防止陷入 major 优先的未更新问题",

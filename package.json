@@ -6,8 +6,8 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "playground": "pnpm --filter=./playground",
-    "build:playground": "pnpm --filter {./playground}... build",
+    "www:dev": "turbo run dev --filter=www",
+    "build:www": "pnpm --filter {./www}... build",
     "build:shared": "pnpm --filter {./packages/shared}... build-fast",
     "prepare": "husky install",
     "build-fast": "pnpm -r --parallel --filter=./packages/** build-fast",
@@ -28,7 +28,6 @@
     "concurrently": "^8.2.0",
     "husky": "8.0.3",
     "lint-staged": "13.2.3",
-    "prettier": "^2.8.8",
     "ts-morph": "19.0.0",
     "tsup": "7.1.0",
     "tsx": "3.12.10",
@@ -47,6 +46,9 @@
   "devDependencies": {
     "happy-dom": "^12.1.6",
     "mdx-local-link-checker": "^2.1.1",
-    "rimraf": "^5.0.1"
+    "prettier": "^2.8.8",
+    "rimraf": "^5.0.1",
+    "turbo": "^1.10.15",
+    "zx": "^7.2.3"
   }
 }
