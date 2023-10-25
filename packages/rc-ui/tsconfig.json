@@ -1,4 +1,9 @@
 {
   "extends": "../../tsconfig.rc.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
   "include": ["src", "stories", "index.ts"]
 }
