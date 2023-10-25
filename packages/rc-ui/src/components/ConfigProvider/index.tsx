@@ -1,7 +1,7 @@
-import React from 'react'
-import { ConfigContext, type ConfigContextType } from './ConfigContext'
+import * as React from 'react'
+import { ConfigContext, ConfigContextType } from './ConfigContext'
 
-export * from './ConfigContext'
+// export * from './ConfigContext'
 export const ConfigProvider: React.FC<{
   config?: ConfigContextType
   children?: React.ReactNode | React.ReactElement

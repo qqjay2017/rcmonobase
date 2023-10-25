@@ -5,7 +5,7 @@
     "lib": ["dom", "esnext"],
     "declaration": true,
     "sourceMap": true,
-    "moduleResolution": "Bundler",
+    "moduleResolution": "node",
     "skipLibCheck": true,
     "strict": true,
     "isolatedModules": true,
@@ -16,8 +16,7 @@
     "allowSyntheticDefaultImports": true,
     "downlevelIteration": true,
     "forceConsistentCasingInFileNames": true,
-    "skipDefaultLibCheck": true,
-    "verbatimModuleSyntax": true
+    "skipDefaultLibCheck": true
   },
 
   "include": ["@types", "packages"],

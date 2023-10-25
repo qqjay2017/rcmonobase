@@ -23,6 +23,7 @@ export const Primary: Story = {
   args: {
     a: '112c',
     variant: 'link',
+    primary: true,
     // variant: 'default',
     //   primary: true,
     //   label: 'Button',

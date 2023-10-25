@@ -19,10 +19,10 @@ importers:
         version: registry.npmmirror.com/@types/node@20.4.5
       '@typescript-eslint/eslint-plugin':
         specifier: 6.2.1
-        version: registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.2.1(@typescript-eslint/parser@6.2.1)(eslint@8.48.0)(typescript@5.1.6)
+        version: registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.2.1(@typescript-eslint/parser@6.2.1)(eslint@8.48.0)(typescript@5.2.2)
       '@typescript-eslint/parser':
         specifier: 6.2.1
-        version: registry.npmmirror.com/@typescript-eslint/parser@6.2.1(eslint@8.48.0)(typescript@5.1.6)
+        version: registry.npmmirror.com/@typescript-eslint/parser@6.2.1(eslint@8.48.0)(typescript@5.2.2)
       concurrently:
         specifier: ^8.2.0
         version: registry.npmmirror.com/concurrently@8.2.0
@@ -37,16 +37,13 @@ importers:
         version: registry.npmmirror.com/ts-morph@19.0.0
       tsup:
         specifier: 7.1.0
-        version: registry.npmmirror.com/tsup@7.1.0(typescript@5.1.6)
+        version: registry.npmmirror.com/tsup@7.1.0(typescript@5.2.2)
       tsx:
         specifier: 3.12.10
         version: registry.npmmirror.com/tsx@3.12.10
-      typescript:
-        specifier: 5.1.6
-        version: registry.npmmirror.com/typescript@5.1.6
       vite-tsconfig-paths:
         specifier: 4.2.0
-        version: registry.npmmirror.com/vite-tsconfig-paths@4.2.0(typescript@5.1.6)(vite@4.4.9)
+        version: registry.npmmirror.com/vite-tsconfig-paths@4.2.0(typescript@5.2.2)(vite@4.4.9)
       vitest:
         specifier: 0.33.0
         version: registry.npmmirror.com/vitest@0.33.0(happy-dom@12.1.6)
@@ -224,8 +221,8 @@ importers:
         specifier: 3.3.3
         version: registry.npmmirror.com/tailwindcss@3.3.3
       typescript:
-        specifier: 5.1.6
-        version: registry.npmmirror.com/typescript@5.1.6
+        specifier: 5.2.2
+        version: registry.npmmirror.com/typescript@5.2.2
 
   packages/shared: {}
 
@@ -270,10 +267,10 @@ importers:
         version: registry.npmmirror.com/@storybook/blocks@7.6.0-alpha.2(@types/react-dom@18.2.7)(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/react':
         specifier: ^7.6.0-alpha.2
-        version: registry.npmmirror.com/@storybook/react@7.6.0-alpha.2(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
+        version: registry.npmmirror.com/@storybook/react@7.6.0-alpha.2(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)
       '@storybook/react-vite':
         specifier: ^7.6.0-alpha.2
-        version: registry.npmmirror.com/@storybook/react-vite@7.6.0-alpha.2(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(vite@4.4.9)
+        version: registry.npmmirror.com/@storybook/react-vite@7.6.0-alpha.2(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(vite@4.4.9)
       '@storybook/testing-library':
         specifier: ^0.2.2
         version: registry.npmmirror.com/@storybook/testing-library@0.2.2
@@ -285,10 +282,10 @@ importers:
         version: registry.npmmirror.com/@types/react-dom@18.2.7
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.0.0
-        version: registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.2.1(@typescript-eslint/parser@6.2.1)(eslint@8.48.0)(typescript@5.1.6)
+        version: registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.2.1(@typescript-eslint/parser@6.2.1)(eslint@8.48.0)(typescript@5.2.2)
       '@typescript-eslint/parser':
         specifier: ^6.0.0
-        version: registry.npmmirror.com/@typescript-eslint/parser@6.2.1(eslint@8.48.0)(typescript@5.1.6)
+        version: registry.npmmirror.com/@typescript-eslint/parser@6.2.1(eslint@8.48.0)(typescript@5.2.2)
       '@vitejs/plugin-react':
         specifier: ^4.0.3
         version: registry.npmmirror.com/@vitejs/plugin-react@4.0.3(vite@4.4.9)
@@ -305,14 +302,14 @@ importers:
         specifier: ^7.6.0-alpha.2
         version: registry.npmmirror.com/storybook@7.6.0-alpha.2
       typescript:
-        specifier: 5.1.6
-        version: registry.npmmirror.com/typescript@5.1.6
+        specifier: 5.2.2
+        version: registry.npmmirror.com/typescript@5.2.2
       vite:
         specifier: ^4.4.5
         version: registry.npmmirror.com/vite@4.4.9(@types/node@20.4.5)
       vite-tsconfig-paths:
         specifier: 4.2.0
-        version: registry.npmmirror.com/vite-tsconfig-paths@4.2.0(typescript@5.1.6)(vite@4.4.9)
+        version: registry.npmmirror.com/vite-tsconfig-paths@4.2.0(typescript@5.2.2)(vite@4.4.9)
 
 packages:
 
@@ -2866,7 +2863,7 @@ packages:
       chalk: registry.npmmirror.com/chalk@4.1.2
     dev: true
 
-  registry.npmmirror.com/@joshwooding/vite-plugin-react-docgen-typescript@0.3.0(typescript@5.1.6)(vite@4.4.9):
+  registry.npmmirror.com/@joshwooding/vite-plugin-react-docgen-typescript@0.3.0(typescript@5.2.2)(vite@4.4.9):
     resolution: {integrity: sha512-2D6y7fNvFmsLmRt6UCOFJPvFoPMJGT0Uh1Wg0RaigUp7kdQPs6yYn8Dmx6GZkOH/NW0yMTwRz/p0SRMMRo50vA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@joshwooding/vite-plugin-react-docgen-typescript/-/vite-plugin-react-docgen-typescript-0.3.0.tgz}
     id: registry.npmmirror.com/@joshwooding/vite-plugin-react-docgen-typescript/0.3.0
     name: '@joshwooding/vite-plugin-react-docgen-typescript'
@@ -2881,8 +2878,8 @@ packages:
       glob: registry.npmmirror.com/glob@7.2.3
       glob-promise: registry.npmmirror.com/glob-promise@4.2.2(glob@7.2.3)
       magic-string: registry.npmmirror.com/magic-string@0.27.0
-      react-docgen-typescript: registry.npmmirror.com/react-docgen-typescript@2.2.2(typescript@5.1.6)
-      typescript: registry.npmmirror.com/typescript@5.1.6
+      react-docgen-typescript: registry.npmmirror.com/react-docgen-typescript@2.2.2(typescript@5.2.2)
+      typescript: registry.npmmirror.com/typescript@5.2.2
       vite: registry.npmmirror.com/vite@4.4.9(@types/node@20.4.5)
     dev: true
 
@@ -5316,7 +5313,7 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/@storybook/builder-vite@7.6.0-alpha.2(typescript@5.1.6)(vite@4.4.9):
+  registry.npmmirror.com/@storybook/builder-vite@7.6.0-alpha.2(typescript@5.2.2)(vite@4.4.9):
     resolution: {integrity: sha512-8CvAxXjK7V7kX8VjYbV1xOmvsz+brna+N6hGhTmLs8daqg9T0e8CXf8Ls4StCD48OmD+BxzTQ0PckEEu24JG7w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@storybook/builder-vite/-/builder-vite-7.6.0-alpha.2.tgz}
     id: registry.npmmirror.com/@storybook/builder-vite/7.6.0-alpha.2
     name: '@storybook/builder-vite'
@@ -5350,7 +5347,7 @@ packages:
       fs-extra: registry.npmmirror.com/fs-extra@11.1.1
       magic-string: registry.npmmirror.com/magic-string@0.30.3
       rollup: registry.npmmirror.com/rollup@3.29.3
-      typescript: registry.npmmirror.com/typescript@5.1.6
+      typescript: registry.npmmirror.com/typescript@5.2.2
       vite: registry.npmmirror.com/vite@4.4.9(@types/node@20.4.5)
     transitivePeerDependencies:
       - encoding
@@ -5839,7 +5836,7 @@ packages:
       react-dom: registry.npmmirror.com/react-dom@18.2.0(react@18.2.0)
     dev: true
 
-  registry.npmmirror.com/@storybook/react-vite@7.6.0-alpha.2(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(vite@4.4.9):
+  registry.npmmirror.com/@storybook/react-vite@7.6.0-alpha.2(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(vite@4.4.9):
     resolution: {integrity: sha512-qZ3lH8u+nEEU5tyChMyS6/OaNQQx3trhHg+u5rGMjjWOXAeOHSPWOB5VzdxkkGAEQ/7knxhu/WlMvgzn+gbZAw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@storybook/react-vite/-/react-vite-7.6.0-alpha.2.tgz}
     id: registry.npmmirror.com/@storybook/react-vite/7.6.0-alpha.2
     name: '@storybook/react-vite'
@@ -5850,10 +5847,10 @@ packages:
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': registry.npmmirror.com/@joshwooding/vite-plugin-react-docgen-typescript@0.3.0(typescript@5.1.6)(vite@4.4.9)
+      '@joshwooding/vite-plugin-react-docgen-typescript': registry.npmmirror.com/@joshwooding/vite-plugin-react-docgen-typescript@0.3.0(typescript@5.2.2)(vite@4.4.9)
       '@rollup/pluginutils': registry.npmmirror.com/@rollup/pluginutils@5.0.5
-      '@storybook/builder-vite': registry.npmmirror.com/@storybook/builder-vite@7.6.0-alpha.2(typescript@5.1.6)(vite@4.4.9)
-      '@storybook/react': registry.npmmirror.com/@storybook/react@7.6.0-alpha.2(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
+      '@storybook/builder-vite': registry.npmmirror.com/@storybook/builder-vite@7.6.0-alpha.2(typescript@5.2.2)(vite@4.4.9)
+      '@storybook/react': registry.npmmirror.com/@storybook/react@7.6.0-alpha.2(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)
       '@vitejs/plugin-react': registry.npmmirror.com/@vitejs/plugin-react@3.1.0(vite@4.4.9)
       magic-string: registry.npmmirror.com/magic-string@0.30.3
       react: registry.npmmirror.com/react@18.2.0
@@ -5869,7 +5866,7 @@ packages:
       - vite-plugin-glimmerx
     dev: true
 
-  registry.npmmirror.com/@storybook/react@7.6.0-alpha.2(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6):
+  registry.npmmirror.com/@storybook/react@7.6.0-alpha.2(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2):
     resolution: {integrity: sha512-EQc+3f7ni+IfDVzUGAnyZDIYwJtznbPVDr3qlfIZkyEPxiXS//RnKA6gn1uLFNTUz8jgdSNwhY0g7tKltzT7Lg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@storybook/react/-/react-7.6.0-alpha.2.tgz}
     id: registry.npmmirror.com/@storybook/react/7.6.0-alpha.2
     name: '@storybook/react'
@@ -5905,7 +5902,7 @@ packages:
       react-element-to-jsx-string: registry.npmmirror.com/react-element-to-jsx-string@15.0.0(react-dom@18.2.0)(react@18.2.0)
       ts-dedent: registry.npmmirror.com/ts-dedent@2.2.0
       type-fest: registry.npmmirror.com/type-fest@2.19.0
-      typescript: registry.npmmirror.com/typescript@5.1.6
+      typescript: registry.npmmirror.com/typescript@5.2.2
       util-deprecate: registry.npmmirror.com/util-deprecate@1.0.2
     transitivePeerDependencies:
       - encoding
@@ -6526,7 +6523,7 @@ packages:
       '@types/yargs-parser': registry.npmmirror.com/@types/yargs-parser@21.0.2
     dev: true
 
-  registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.2.1(@typescript-eslint/parser@6.2.1)(eslint@8.48.0)(typescript@5.1.6):
+  registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.2.1(@typescript-eslint/parser@6.2.1)(eslint@8.48.0)(typescript@5.2.2):
     resolution: {integrity: sha512-iZVM/ALid9kO0+I81pnp1xmYiFyqibAHzrqX4q5YvvVEyJqY+e6rfTXSCsc2jUxGNqJqTfFSSij/NFkZBiBzLw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-6.2.1.tgz}
     id: registry.npmmirror.com/@typescript-eslint/eslint-plugin/6.2.1
     name: '@typescript-eslint/eslint-plugin'
@@ -6541,10 +6538,10 @@ packages:
         optional: true
     dependencies:
       '@eslint-community/regexpp': registry.npmmirror.com/@eslint-community/regexpp@4.9.0
-      '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser@6.2.1(eslint@8.48.0)(typescript@5.1.6)
+      '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser@6.2.1(eslint@8.48.0)(typescript@5.2.2)
       '@typescript-eslint/scope-manager': registry.npmmirror.com/@typescript-eslint/scope-manager@6.2.1
-      '@typescript-eslint/type-utils': registry.npmmirror.com/@typescript-eslint/type-utils@6.2.1(eslint@8.48.0)(typescript@5.1.6)
-      '@typescript-eslint/utils': registry.npmmirror.com/@typescript-eslint/utils@6.2.1(eslint@8.48.0)(typescript@5.1.6)
+      '@typescript-eslint/type-utils': registry.npmmirror.com/@typescript-eslint/type-utils@6.2.1(eslint@8.48.0)(typescript@5.2.2)
+      '@typescript-eslint/utils': registry.npmmirror.com/@typescript-eslint/utils@6.2.1(eslint@8.48.0)(typescript@5.2.2)
       '@typescript-eslint/visitor-keys': registry.npmmirror.com/@typescript-eslint/visitor-keys@6.2.1
       debug: registry.npmmirror.com/debug@4.3.4
       eslint: registry.npmmirror.com/eslint@8.48.0
@@ -6553,12 +6550,12 @@ packages:
       natural-compare: registry.npmmirror.com/natural-compare@1.4.0
       natural-compare-lite: registry.npmmirror.com/natural-compare-lite@1.4.0
       semver: registry.npmmirror.com/semver@7.5.4
-      ts-api-utils: registry.npmmirror.com/ts-api-utils@1.0.3(typescript@5.1.6)
-      typescript: registry.npmmirror.com/typescript@5.1.6
+      ts-api-utils: registry.npmmirror.com/ts-api-utils@1.0.3(typescript@5.2.2)
+      typescript: registry.npmmirror.com/typescript@5.2.2
     transitivePeerDependencies:
       - supports-color
 
-  registry.npmmirror.com/@typescript-eslint/parser@6.2.1(eslint@8.48.0)(typescript@5.1.6):
+  registry.npmmirror.com/@typescript-eslint/parser@6.2.1(eslint@8.48.0)(typescript@5.2.2):
     resolution: {integrity: sha512-Ld+uL1kYFU8e6btqBFpsHkwQ35rw30IWpdQxgOqOh4NfxSDH6uCkah1ks8R/RgQqI5hHPXMaLy9fbFseIe+dIg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@typescript-eslint/parser/-/parser-6.2.1.tgz}
     id: registry.npmmirror.com/@typescript-eslint/parser/6.2.1
     name: '@typescript-eslint/parser'
@@ -6573,11 +6570,11 @@ packages:
     dependencies:
       '@typescript-eslint/scope-manager': registry.npmmirror.com/@typescript-eslint/scope-manager@6.2.1
       '@typescript-eslint/types': registry.npmmirror.com/@typescript-eslint/types@6.2.1
-      '@typescript-eslint/typescript-estree': registry.npmmirror.com/@typescript-eslint/typescript-estree@6.2.1(typescript@5.1.6)
+      '@typescript-eslint/typescript-estree': registry.npmmirror.com/@typescript-eslint/typescript-estree@6.2.1(typescript@5.2.2)
       '@typescript-eslint/visitor-keys': registry.npmmirror.com/@typescript-eslint/visitor-keys@6.2.1
       debug: registry.npmmirror.com/debug@4.3.4
       eslint: registry.npmmirror.com/eslint@8.48.0
-      typescript: registry.npmmirror.com/typescript@5.1.6
+      typescript: registry.npmmirror.com/typescript@5.2.2
     transitivePeerDependencies:
       - supports-color
 
@@ -6590,7 +6587,7 @@ packages:
       '@typescript-eslint/types': registry.npmmirror.com/@typescript-eslint/types@6.2.1
       '@typescript-eslint/visitor-keys': registry.npmmirror.com/@typescript-eslint/visitor-keys@6.2.1
 
-  registry.npmmirror.com/@typescript-eslint/type-utils@6.2.1(eslint@8.48.0)(typescript@5.1.6):
+  registry.npmmirror.com/@typescript-eslint/type-utils@6.2.1(eslint@8.48.0)(typescript@5.2.2):
     resolution: {integrity: sha512-fTfCgomBMIgu2Dh2Or3gMYgoNAnQm3RLtRp+jP7A8fY+LJ2+9PNpi5p6QB5C4RSP+U3cjI0vDlI3mspAkpPVbQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@typescript-eslint/type-utils/-/type-utils-6.2.1.tgz}
     id: registry.npmmirror.com/@typescript-eslint/type-utils/6.2.1
     name: '@typescript-eslint/type-utils'
@@ -6603,12 +6600,12 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/typescript-estree': registry.npmmirror.com/@typescript-eslint/typescript-estree@6.2.1(typescript@5.1.6)
-      '@typescript-eslint/utils': registry.npmmirror.com/@typescript-eslint/utils@6.2.1(eslint@8.48.0)(typescript@5.1.6)
+      '@typescript-eslint/typescript-estree': registry.npmmirror.com/@typescript-eslint/typescript-estree@6.2.1(typescript@5.2.2)
+      '@typescript-eslint/utils': registry.npmmirror.com/@typescript-eslint/utils@6.2.1(eslint@8.48.0)(typescript@5.2.2)
       debug: registry.npmmirror.com/debug@4.3.4
       eslint: registry.npmmirror.com/eslint@8.48.0
-      ts-api-utils: registry.npmmirror.com/ts-api-utils@1.0.3(typescript@5.1.6)
-      typescript: registry.npmmirror.com/typescript@5.1.6
+      ts-api-utils: registry.npmmirror.com/ts-api-utils@1.0.3(typescript@5.2.2)
+      typescript: registry.npmmirror.com/typescript@5.2.2
     transitivePeerDependencies:
       - supports-color
 
@@ -6618,7 +6615,7 @@ packages:
     version: 6.2.1
     engines: {node: ^16.0.0 || >=18.0.0}
 
-  registry.npmmirror.com/@typescript-eslint/typescript-estree@6.2.1(typescript@5.1.6):
+  registry.npmmirror.com/@typescript-eslint/typescript-estree@6.2.1(typescript@5.2.2):
     resolution: {integrity: sha512-G+UJeQx9AKBHRQBpmvr8T/3K5bJa485eu+4tQBxFq0KoT22+jJyzo1B50JDT9QdC1DEmWQfdKsa8ybiNWYsi0Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@typescript-eslint/typescript-estree/-/typescript-estree-6.2.1.tgz}
     id: registry.npmmirror.com/@typescript-eslint/typescript-estree/6.2.1
     name: '@typescript-eslint/typescript-estree'
@@ -6636,12 +6633,12 @@ packages:
       globby: registry.npmmirror.com/globby@11.1.0
       is-glob: registry.npmmirror.com/is-glob@4.0.3
       semver: registry.npmmirror.com/semver@7.5.4
-      ts-api-utils: registry.npmmirror.com/ts-api-utils@1.0.3(typescript@5.1.6)
-      typescript: registry.npmmirror.com/typescript@5.1.6
+      ts-api-utils: registry.npmmirror.com/ts-api-utils@1.0.3(typescript@5.2.2)
+      typescript: registry.npmmirror.com/typescript@5.2.2
     transitivePeerDependencies:
       - supports-color
 
-  registry.npmmirror.com/@typescript-eslint/utils@6.2.1(eslint@8.48.0)(typescript@5.1.6):
+  registry.npmmirror.com/@typescript-eslint/utils@6.2.1(eslint@8.48.0)(typescript@5.2.2):
     resolution: {integrity: sha512-eBIXQeupYmxVB6S7x+B9SdBeB6qIdXKjgQBge2J+Ouv8h9Cxm5dHf/gfAZA6dkMaag+03HdbVInuXMmqFB/lKQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@typescript-eslint/utils/-/utils-6.2.1.tgz}
     id: registry.npmmirror.com/@typescript-eslint/utils/6.2.1
     name: '@typescript-eslint/utils'
@@ -6655,7 +6652,7 @@ packages:
       '@types/semver': registry.npmmirror.com/@types/semver@7.5.3
       '@typescript-eslint/scope-manager': registry.npmmirror.com/@typescript-eslint/scope-manager@6.2.1
       '@typescript-eslint/types': registry.npmmirror.com/@typescript-eslint/types@6.2.1
-      '@typescript-eslint/typescript-estree': registry.npmmirror.com/@typescript-eslint/typescript-estree@6.2.1(typescript@5.1.6)
+      '@typescript-eslint/typescript-estree': registry.npmmirror.com/@typescript-eslint/typescript-estree@6.2.1(typescript@5.2.2)
       eslint: registry.npmmirror.com/eslint@8.48.0
       semver: registry.npmmirror.com/semver@7.5.4
     transitivePeerDependencies:
@@ -12290,7 +12287,7 @@ packages:
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/react-docgen-typescript@2.2.2(typescript@5.1.6):
+  registry.npmmirror.com/react-docgen-typescript@2.2.2(typescript@5.2.2):
     resolution: {integrity: sha512-tvg2ZtOpOi6QDwsb3GZhOjDkkX0h8Z2gipvTg6OVMUyoYoURhEiRNePT8NZItTVCDh39JJHnLdfCOkzoLbFnTg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-docgen-typescript/-/react-docgen-typescript-2.2.2.tgz}
     id: registry.npmmirror.com/react-docgen-typescript/2.2.2
     name: react-docgen-typescript
@@ -12298,7 +12295,7 @@ packages:
     peerDependencies:
       typescript: '>= 4.3.x'
     dependencies:
-      typescript: registry.npmmirror.com/typescript@5.1.6
+      typescript: registry.npmmirror.com/typescript@5.2.2
     dev: true
 
   registry.npmmirror.com/react-docgen@7.0.0:
@@ -13861,7 +13858,7 @@ packages:
     version: 1.0.5
     dev: true
 
-  registry.npmmirror.com/ts-api-utils@1.0.3(typescript@5.1.6):
+  registry.npmmirror.com/ts-api-utils@1.0.3(typescript@5.2.2):
     resolution: {integrity: sha512-wNMeqtMz5NtwpT/UZGY5alT+VoKdSsOOP/kqHFcUW1P/VRhH2wJ48+DN2WwUliNbQ976ETwDL0Ifd2VVvgonvg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ts-api-utils/-/ts-api-utils-1.0.3.tgz}
     id: registry.npmmirror.com/ts-api-utils/1.0.3
     name: ts-api-utils
@@ -13870,7 +13867,7 @@ packages:
     peerDependencies:
       typescript: '>=4.2.0'
     dependencies:
-      typescript: registry.npmmirror.com/typescript@5.1.6
+      typescript: registry.npmmirror.com/typescript@5.2.2
 
   registry.npmmirror.com/ts-dedent@2.2.0:
     resolution: {integrity: sha512-q5W7tVM71e2xjHZTlgfTDoPF/SmqKG5hddq9SzR49CH2hayqRKJtQ4mtRlSxKaJlR/+9rEM+mnBHf7I2/BQcpQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ts-dedent/-/ts-dedent-2.2.0.tgz}
@@ -13893,7 +13890,7 @@ packages:
       code-block-writer: registry.npmmirror.com/code-block-writer@12.0.0
     dev: false
 
-  registry.npmmirror.com/tsconfck@2.1.2(typescript@5.1.6):
+  registry.npmmirror.com/tsconfck@2.1.2(typescript@5.2.2):
     resolution: {integrity: sha512-ghqN1b0puy3MhhviwO2kGF8SeMDNhEbnKxjK7h6+fvY9JAxqvXi8y5NAHSQv687OVboS2uZIByzGd45/YxrRHg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tsconfck/-/tsconfck-2.1.2.tgz}
     id: registry.npmmirror.com/tsconfck/2.1.2
     name: tsconfck
@@ -13906,7 +13903,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      typescript: registry.npmmirror.com/typescript@5.1.6
+      typescript: registry.npmmirror.com/typescript@5.2.2
 
   registry.npmmirror.com/tslib@1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tslib/-/tslib-1.14.1.tgz}
@@ -13919,7 +13916,7 @@ packages:
     name: tslib
     version: 2.6.2
 
-  registry.npmmirror.com/tsup@7.1.0(typescript@5.1.6):
+  registry.npmmirror.com/tsup@7.1.0(typescript@5.2.2):
     resolution: {integrity: sha512-mazl/GRAk70j8S43/AbSYXGgvRP54oQeX8Un4iZxzATHt0roW0t6HYDVZIXMw0ZQIpvr1nFMniIVnN5186lW7w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tsup/-/tsup-7.1.0.tgz}
     id: registry.npmmirror.com/tsup/7.1.0
     name: tsup
@@ -13952,7 +13949,7 @@ packages:
       source-map: registry.npmmirror.com/source-map@0.8.0-beta.0
       sucrase: registry.npmmirror.com/sucrase@3.34.0
       tree-kill: registry.npmmirror.com/tree-kill@1.2.2
-      typescript: registry.npmmirror.com/typescript@5.1.6
+      typescript: registry.npmmirror.com/typescript@5.2.2
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -14190,10 +14187,10 @@ packages:
     version: 0.0.6
     dev: true
 
-  registry.npmmirror.com/typescript@5.1.6:
-    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typescript/-/typescript-5.1.6.tgz}
+  registry.npmmirror.com/typescript@5.2.2:
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typescript/-/typescript-5.2.2.tgz}
     name: typescript
-    version: 5.1.6
+    version: 5.2.2
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -14577,7 +14574,7 @@ packages:
       - terser
     dev: false
 
-  registry.npmmirror.com/vite-tsconfig-paths@4.2.0(typescript@5.1.6)(vite@4.4.9):
+  registry.npmmirror.com/vite-tsconfig-paths@4.2.0(typescript@5.2.2)(vite@4.4.9):
     resolution: {integrity: sha512-jGpus0eUy5qbbMVGiTxCL1iB9ZGN6Bd37VGLJU39kTDD6ZfULTTb1bcc5IeTWqWJKiWV5YihCaibeASPiGi8kw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vite-tsconfig-paths/-/vite-tsconfig-paths-4.2.0.tgz}
     id: registry.npmmirror.com/vite-tsconfig-paths/4.2.0
     name: vite-tsconfig-paths
@@ -14590,7 +14587,7 @@ packages:
     dependencies:
       debug: registry.npmmirror.com/debug@4.3.4
       globrex: registry.npmmirror.com/globrex@0.1.2
-      tsconfck: registry.npmmirror.com/tsconfck@2.1.2(typescript@5.1.6)
+      tsconfck: registry.npmmirror.com/tsconfck@2.1.2(typescript@5.2.2)
       vite: registry.npmmirror.com/vite@4.4.9(@types/node@20.4.5)
     transitivePeerDependencies:
       - supports-color

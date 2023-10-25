@@ -14,8 +14,7 @@
     "noImplicitReturns": false,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true,
-    "verbatimModuleSyntax": true
+    "strict": true
   },
   "include": ["packages"],
 
