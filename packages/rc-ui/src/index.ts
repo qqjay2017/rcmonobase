@@ -1,3 +1,3 @@
 import './globals.css'
-export * from './Base'
+export * from './components/ConfigProvider'
 export * from './components/SaveFormBtn'

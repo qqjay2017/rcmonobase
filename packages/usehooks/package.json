@@ -21,7 +21,7 @@
     "module": "dist/index.mjs"
   },
   "scripts": {
-    "build": " ",
+    "build": "tsup src/index.ts  --format esm,cjs   --dts --treeshake",
     "dev": "pnpm build:fast -- --watch",
     "clean": "rimraf dist .turbo",
     "typecheck": "tsc --noEmit",

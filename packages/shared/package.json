@@ -14,7 +14,7 @@
     "module": "dist/index.mjs"
   },
   "scripts": {
-    "build": "tsup --dts",
+    "build": "tsup src/index.ts  --format esm,cjs   --dts --treeshake",
     "build-fast": "tsup --no-dts",
     "dev": "pnpm build-fast --watch"
   },

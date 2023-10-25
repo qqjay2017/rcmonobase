@@ -15,5 +15,6 @@
         "require": "./dist/index.css"
       }
     }
-  }
+  },
+  "remove": ["publishConfig"]
 }
