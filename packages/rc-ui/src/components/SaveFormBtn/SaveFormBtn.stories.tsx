@@ -19,11 +19,11 @@ const meta = {
 export default meta
 type Story = StoryObj<typeof meta>
 
-export const Primary: Story = {
+export const Variant: Story = {
   args: {
     a: '112c',
-    variant: 'link',
-    primary: true,
+    variant: 'default',
+
     // variant: 'default',
     //   primary: true,
     //   label: 'Button',

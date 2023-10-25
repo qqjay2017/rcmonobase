@@ -7,7 +7,7 @@
     "sourceMap": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
-    "strict": true,
+
     "isolatedModules": true,
     "noFallthroughCasesInSwitch": true,
     "jsx": "react-jsx",
