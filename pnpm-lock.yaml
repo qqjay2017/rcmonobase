@@ -70,7 +70,7 @@ importers:
         specifier: ^7.2.3
         version: registry.npmmirror.com/zx@7.2.3
 
-  packages/rc-base:
+  packages/rc-ui:
     dependencies:
       '@ljfe/shared':
         specifier: workspace:*
