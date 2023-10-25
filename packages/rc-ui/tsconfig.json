@@ -5,5 +5,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src", "stories", "index.ts"]
+  "include": ["src", "stories", "index.ts"],
+  "exclude": ["**/node_modules", "**/template*", "**/*.md"]
 }

@@ -211,6 +211,9 @@ importers:
       tailwindcss:
         specifier: 3.3.3
         version: registry.npmmirror.com/tailwindcss@3.3.3
+      typescript:
+        specifier: 5.1.6
+        version: registry.npmmirror.com/typescript@5.1.6
 
   packages/shared: {}
 
@@ -8995,6 +8998,14 @@ packages:
       for-each: registry.npmmirror.com/for-each@0.3.3
       is-typed-array: registry.npmmirror.com/is-typed-array@1.1.12
     dev: false
+
+  registry.npmmirror.com/typescript@5.1.6:
+    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typescript/-/typescript-5.1.6.tgz}
+    name: typescript
+    version: 5.1.6
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
 
   registry.npmmirror.com/typescript@5.2.2:
     resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typescript/-/typescript-5.2.2.tgz}

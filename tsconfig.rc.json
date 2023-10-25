@@ -5,7 +5,7 @@
     "lib": ["dom", "esnext"],
     "declaration": true,
     "sourceMap": true,
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "skipLibCheck": true,
     "strict": true,
     "isolatedModules": true,
@@ -14,9 +14,12 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
-    "downlevelIteration": true
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipDefaultLibCheck": true,
+    "verbatimModuleSyntax": true
   },
 
   "include": ["@types", "packages"],
-  "exclude": ["**/node_modules", "**/template*"]
+  "exclude": ["**/node_modules", "**/template*", "**/*.md"]
 }

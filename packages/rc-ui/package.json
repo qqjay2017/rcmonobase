@@ -73,13 +73,14 @@
     "react": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-spinners": "0.13.8",
-    "tailwindcss": "3.3.3"
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6"
   },
   "peerDependencies": {
     "react": ">=18"
   },
   "scripts": {
-    "build": "tsup src --dts",
+    "build": "tsup src/index.ts  --format esm,cjs   --dts --treeshake",
     "dev": "pnpm build:fast -- --watch",
     "clean": "rimraf dist .turbo",
     "typecheck": "tsc --noEmit",
