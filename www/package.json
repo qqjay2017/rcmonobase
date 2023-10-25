@@ -12,15 +12,14 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@ljfe/rc-ui": "workspace:*",
-    "@ljfe/shared": "workspace:*",
-    "@ljfe/react-use-hooks": "workspace:*"
+    "@ljfe/rc-ui": "workspace:*"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.0-alpha.2",
     "@storybook/addon-interactions": "^7.6.0-alpha.2",
     "@storybook/addon-links": "^7.6.0-alpha.2",
     "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/addon-storysource": "7.6.0-alpha.2",
     "@storybook/blocks": "^7.6.0-alpha.2",
     "@storybook/react": "^7.6.0-alpha.2",
     "@storybook/react-vite": "^7.6.0-alpha.2",
@@ -34,8 +33,9 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "storybook": "^7.6.0-alpha.2",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "typescript": "5.1.6",
+    "vite": "^4.4.5",
+    "vite-tsconfig-paths": "4.2.0"
   },
   "resolutions": {
     "@storybook/addon-a11y": "7.6.0-alpha.2",

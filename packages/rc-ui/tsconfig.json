@@ -1,10 +1,6 @@
 {
   "extends": "../../tsconfig.rc.json",
-  "compilerOptions": {
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  },
+  "compilerOptions": {},
   "include": ["src", "stories", "index.ts"],
   "exclude": ["**/node_modules", "**/template*", "**/*.md"]
 }
