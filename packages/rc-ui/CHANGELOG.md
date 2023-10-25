@@ -1,5 +1,12 @@
 # @ljfe/rc-base
 
+## 1.0.1
+
+### Patch Changes
+
+- 1111
+  - @ljfe/shared@1.0.1
+
 ## 1.0.0
 
 ### Major Changes
