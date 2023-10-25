@@ -18,7 +18,7 @@ __generated__
 *.env
 .idea
 *.vsix
-
+storybook-static
 ## Panda
 styled-system
 styled-system-static

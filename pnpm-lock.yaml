@@ -228,6 +228,15 @@ importers:
 
   www:
     dependencies:
+      '@ljfe/rc-ui':
+        specifier: workspace:*
+        version: link:../packages/rc-ui
+      '@ljfe/react-use-hooks':
+        specifier: workspace:*
+        version: link:../packages/usehooks
+      '@ljfe/shared':
+        specifier: workspace:*
+        version: link:../packages/shared
       react:
         specifier: ^18.2.0
         version: registry.npmmirror.com/react@18.2.0

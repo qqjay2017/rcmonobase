@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@ljfe/rc-ui": "workspace:*",
+    "@ljfe/shared": "workspace:*",
+    "@ljfe/react-use-hooks": "workspace:*"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.0-alpha.2",

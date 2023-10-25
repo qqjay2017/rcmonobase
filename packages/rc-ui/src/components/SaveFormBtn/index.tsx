@@ -1,9 +1,10 @@
-import { Button } from '../ui/button'
+import { Button, type ButtonProps } from '../ui/button'
 
-export function SaveFormBtn() {
+interface SaveFormBtnProps extends ButtonProps {}
+export function SaveFormBtn(props: SaveFormBtnProps) {
   return (
-    <Button variant={'outline'} className="gap-2">
-      Save
+    <Button variant={'outline'} className="gap-2" {...props}>
+      Save11222
     </Button>
   )
 }
