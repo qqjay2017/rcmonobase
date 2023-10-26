@@ -10,6 +10,7 @@ import { badgeVariants } from '@/components/badge'
 import { Mdx } from '@/components/mdx-components'
 import { ScrollArea } from '@/components/scroll-area'
 import { DashboardTableOfContents } from '@/components/toc'
+import '@/styles/mdx.css'
 interface DocPageProps {
   params: {
     slug: string[]

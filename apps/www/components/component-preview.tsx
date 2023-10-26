@@ -26,6 +26,9 @@ export function ComponentPreview({
   align = 'center',
   ...props
 }: ComponentPreviewProps) {
+  const Codes = React.Children.toArray(children) as React.ReactElement[]
+  console.log(Codes, name, 'CodesCodes')
+  const Code = Codes[0]
   return (
     <div className={cn('group relative my-4 flex flex-col space-y-2', className)} {...props}>
       <Tabs defaultValue="preview" className="relative mr-auto w-full">
@@ -47,7 +50,6 @@ export function ComponentPreview({
         </div>
         <TabsContent value="preview" className="relative rounded-md border">
           <div className="flex items-center justify-between p-4">
-            {/* <StyleSwitcher /> */}
             {/* {extractedClassNames ? (
               <CopyWithClassNames
                 value={codeString}
@@ -83,10 +85,7 @@ export function ComponentPreview({
         </TabsContent>
         <TabsContent value="code">
           <div className="flex flex-col space-y-4">
-            <div className="w-full rounded-md [&_pre]:my-0 [&_pre]:max-h-[350px] [&_pre]:overflow-auto">
-              {/* {Code} */}
-              {name}
-            </div>
+            <div className="w-full rounded-md [&_pre]:my-0 [&_pre]:max-h-[350px] [&_pre]:overflow-auto">{Code}</div>
           </div>
         </TabsContent>
       </Tabs>
