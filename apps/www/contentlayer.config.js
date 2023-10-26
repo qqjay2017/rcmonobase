@@ -61,11 +61,10 @@ export const Doc = defineDocumentType(() => ({
       required: false,
     },
   },
-  computedFields :computedFields as any
- ,
+  computedFields: computedFields,
 }))
 
 export default makeSource({
-    contentDirPath: "./content",
-    documentTypes: [Doc],
+  contentDirPath: './content',
+  documentTypes: [Doc],
 })
